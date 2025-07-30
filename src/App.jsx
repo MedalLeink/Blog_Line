@@ -4,11 +4,10 @@ import AppRoutes from "./approutes/AppRoutes";
 
 function App() {
   return (
-    // <AuthProvider>
-    //   <AppRoutes />
-    // </AuthProvider>
+    <AuthProvider>
+      <AppRoutes />
+    </AuthProvider>
 
-    <h1>Hello, Madeleine</h1>
   );
 }
 
